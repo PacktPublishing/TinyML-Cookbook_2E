@@ -66,7 +66,7 @@ private:
 MFCC_Q15 mfccs;
 
 #define DST_SIZE (NUM_FRAMES * NUM_MFCCS)
-float dst[DST_SIZE];
+static float dst[DST_SIZE];
 
 void setup() {
   Serial.begin(115200);

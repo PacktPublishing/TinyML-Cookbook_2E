@@ -5,18 +5,18 @@ from pydrive.drive import GoogleDrive
 from argparse import ArgumentParser
 
 def serial_readline(obj):
-    data = obj.readline()
-    return data.decode("utf-8")
+  data = obj.readline()
+  return data.decode("utf-8")
 
 def create_file(filename, content):
-    text_file = open(filename, "w")
-    text_file.write(content)
-    text_file.close()
+  text_file = open(filename, "w")
+  text_file.write(content)
+  text_file.close()
 
 def gdrive_upload(obj, filename, gdrive_id):
-    gfile = drive.CreateFile({'parents': [{'id': gdrive_id}]})
-    gfile.SetContentFile(filename)
-    gfile.Upload()
+  gfile = drive.CreateFile({'parents': [{'id': gdrive_id}]})
+  gfile.SetContentFile(filename)
+  gfile.Upload()
 
 parser = ArgumentParser()
 parser.add_argument("--baudrate", dest="baudrate", help="Baudrate", type=int, required=True)
@@ -40,9 +40,9 @@ text = ""
 start_s   = time.time()
 elapsed_s = 0
 while(elapsed < max_time_s):
-    text   += serial_readline(ser)
-    end_s   = time.time()
-    elapsed = end_s - start_s
+  text   += serial_readline(ser)
+  end_s   = time.time()
+  elapsed = end_s - start_s
 
 filename = "test.log"
 

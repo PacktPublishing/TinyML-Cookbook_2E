@@ -52,9 +52,9 @@ def to_c_array(data, c_type, filename, num_cols = 12):
     str_out += str(val)
 
     if (i + 1) < len(data_out):
-        str_out += ','
+      str_out += ','
     if (i + 1) % num_cols == 0:
-        str_out += '\n'
+      str_out += '\n'
 
   str_out += '};\n'
   str_out += '#endif\n'

@@ -118,10 +118,10 @@ void loop(void)
   }
 
   if(ix_max == g_test_ilabel) {
-    TF_LITE_REPORT_ERROR(error_reporter, "TEST passed\n");
+    TF_LITE_REPORT_ERROR(error_reporter, "PASSED\n");
   }
   else {
-    TF_LITE_REPORT_ERROR(error_reporter, "TEST failed\n");
+    TF_LITE_REPORT_ERROR(error_reporter, "FAILED\n");
   }
   while(1);
 }

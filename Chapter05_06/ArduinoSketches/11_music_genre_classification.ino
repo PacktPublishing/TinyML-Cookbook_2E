@@ -32,7 +32,7 @@ static const tflite::Model* tflu_model            = nullptr;
 static tflite::MicroInterpreter* tflu_interpreter = nullptr;
 static TfLiteTensor* tflu_i_tensor                = nullptr;
 static TfLiteTensor* tflu_o_tensor                = nullptr;
-static constexpr int t_sz                         = 8192;
+static constexpr int t_sz                         = 16384;
 static uint8_t tensor_arena[t_sz] __attribute__((aligned(16)));
 
 struct Buffer

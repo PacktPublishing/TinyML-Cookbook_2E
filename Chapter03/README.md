@@ -5,11 +5,11 @@
 
 This chapter will teach us how to implement a simple weather station with machine learning (ML) to predict the occurrence of snowfall based on the temperature and humidity of the last three hours.
 
-In the first part, we will focus on dataset preparation and show how to acquire historical weather data from WorldWeatherOnline. After preparing the dataset, we will show how to train a neural network with TensorFlow and quantize the model to 8-bit with TensorFlow Lite. In the last part, we will deploy the model on the Arduino Nano 33 BLE Sense and Raspberry Pi Pico with TensorFlow Lite for Microcontrollers to build an application capable of predicting the occurrence of snowfall from the temperature and humidity recorded over the last three hours.
+In the first part, we will focus on dataset preparation and show how to acquire historical weather data from WorldWeatherOnline. After preparing the dataset, we will show how to train a neural network with TensorFlow and quantize the model to 8-bit with TensorFlow Lite. In the last part, we will deploy the model on the Arduino Nano 33 BLE Sense and Raspberry Pi Pico with TensorFlow Lite for Microcontrollers to predict the occurrence of snowfall from the temperature and humidity recorded over the last three hours.
 
 <h2> Devices </h2>
 
-| Arduino Nano 33 BLE Sense  | Raspberry Pi Pico | SparkFun RedBoard Artemis Nano |
+| Arduino Nano 33 BLE Sense (Rev1 and Rev2) | Raspberry Pi Pico | SparkFun RedBoard Artemis Nano |
 | ----------- | ---------------------------------------------------------------- | -- |
 | ✅ | ✅ | ✅ |
 

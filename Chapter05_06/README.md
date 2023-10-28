@@ -14,7 +14,7 @@ Finally, we will test the model accuracy on the test dataset and deploy a music 
 
 <h2> Devices </h2>
 
-| Arduino Nano 33 BLE Sense  | Raspberry Pi Pico | SparkFun RedBoard Artemis Nano |
+| Arduino Nano 33 BLE Sense (Rev1 and Rev2) | Raspberry Pi Pico | SparkFun RedBoard Artemis Nano |
 | ----------- | ---------------------------------------------------------------- | -- |
 | ⛔ | ✅ | ✅ |
 

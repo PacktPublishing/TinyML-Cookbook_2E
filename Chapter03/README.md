@@ -34,7 +34,7 @@ In the first part, we will focus on dataset preparation and show how to acquire 
     <th>Source code</th>
     <th>There's more</th>
 </tr>
-<tr style="height:50px">
+<tr style="height:72px">
     <td>Importing weather data from WorldWeatherOnline</td>
     <td>
         <a href="https://github.com/PacktPublishing/TinyML-Cookbook_2E/blob/main/Chapter03/ColabNotebooks/prepare_model.ipynb">
@@ -47,7 +47,7 @@ In the first part, we will focus on dataset preparation and show how to acquire 
         </a>
     </td>
 </tr>
-<tr style="height:50px">
+<tr style="height:72px">
     <td>Preparing the dataset</td>
     <td>
         <a href="https://github.com/PacktPublishing/TinyML-Cookbook_2E/blob/main/Chapter03/ColabNotebooks/prepare_model.ipynb">
@@ -60,7 +60,7 @@ In the first part, we will focus on dataset preparation and show how to acquire 
         </a>
     </td>
 </tr>
-<tr style="height:50px">
+<tr style="height:72px">
     <td>Training the model with TensorFlow </td>
     <td>
         <a href="https://github.com/PacktPublishing/TinyML-Cookbook_2E/blob/main/Chapter03/ColabNotebooks/prepare_model.ipynb">
@@ -68,10 +68,12 @@ In the first part, we will focus on dataset preparation and show how to acquire 
         </a>
     </td>
     <td>
+        <a>
         <img title="More in the book!" src="../Imgs/books_icon.svg" width="40">
+        </a>
     </td>
 </tr>
-<tr style="height:50px">
+<tr style="height:72px">
     <td>Evaluating the model's effectiveness</td>
     <td>
         <a href="https://github.com/PacktPublishing/TinyML-Cookbook_2E/blob/main/Chapter03/ColabNotebooks/prepare_model.ipynb">
@@ -79,10 +81,12 @@ In the first part, we will focus on dataset preparation and show how to acquire 
         </a>
     </td>
     <td>
+        <a>
         <img title="More in the book!" src="../Imgs/books_icon.svg" width="40">
+        </a>
     </td>
 </tr>
-<tr style="height:50px">
+<tr style="height:72px">
     <td>Quantizing the model with the TensorFlow Lite converter</td>
     <td>
         <a href="https://github.com/PacktPublishing/TinyML-Cookbook_2E/blob/main/Chapter03/ColabNotebooks/prepare_model.ipynb">
@@ -98,7 +102,7 @@ In the first part, we will focus on dataset preparation and show how to acquire 
         </a>
     </td>
 </tr>
-<tr style="height:50px">
+<tr style="height:72px">
     <td>Reading temperature and humidity with the Arduino Nano</td>
     <td>
         <a href="https://github.com/PacktPublishing/TinyML-Cookbook_2E/blob/main/Chapter03/ArduinoSketches/06_sensor_arduino_nano.ino">
@@ -106,10 +110,12 @@ In the first part, we will focus on dataset preparation and show how to acquire 
         </a>
     </td>
     <td>
+        <a>
         <img title="More in the book!" src="../Imgs/books_icon.svg" width="40">
+        </a>
     </td>
 </tr>
-<tr style="height:50px">
+<tr style="height:72px">
     <td>Reading temperature and humidity with the DHT22 sensor and the Raspberry Pi Pico</td>
     <td>
         <a href="https://github.com/PacktPublishing/TinyML-Cookbook_2E/blob/main/Chapter03/ArduinoSketches/07_sensor_rasp_pico.ino">
@@ -124,7 +130,7 @@ In the first part, we will focus on dataset preparation and show how to acquire 
         <img title="Schematic for SparkFun RedBoard Artemis Nano" src="../Imgs/schematic_icon.png"  width="40">
     </td>
 </tr>
-<tr style="height:50px">
+<tr style="height:72px">
     <td>Preparing the input features for the model inference</td>
     <td>
         <a href="https://github.com/PacktPublishing/TinyML-Cookbook_2E/blob/main/Chapter03/ArduinoSketches/08_input_features.ino">
@@ -137,7 +143,7 @@ In the first part, we will focus on dataset preparation and show how to acquire 
         </a>
     </td>
 </tr>
-<tr style="height:50px">
+<tr style="height:72px">
     <td>On-device inference with TensorFlow Lite for Microcontrollers</td>
     <td>
         <a href="https://github.com/PacktPublishing/TinyML-Cookbook_2E/blob/main/Chapter03/ArduinoSketches/09_classifier.ino">

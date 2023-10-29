@@ -40,15 +40,17 @@ Finally, we will test the model accuracy on the test dataset and deploy a music 
     <th>Source code</th>
     <th>There's more</th>
 </tr>
-<tr style="height:50px">
+<tr style="height:72px">
     <td>Connecting the microphone to the Raspberry Pi Pico</td>
     <td>
     </td>
     <td>
+        <a>
         <img title="More in the book!" src="../Imgs/books_icon.svg" width="40">
+        </a>
     </td>
 </tr>
-<tr style="height:50px">
+<tr style="height:72px">
     <td>Recording audio samples with the Raspberry Pi Pico</td>
     <td>
         <a href="https://github.com/PacktPublishing/TinyML-Cookbook_2E/blob/main/Chapter05_06/ArduinoSketches/02_mic_capture.ino">
@@ -56,10 +58,12 @@ Finally, we will test the model accuracy on the test dataset and deploy a music 
         </a>
     </td>
     <td>
+        <a>
         <img title="More in the book!" src="../Imgs/books_icon.svg" width="40">
+        </a>
     </td>
 </tr>
-<tr style="height:50px">
+<tr style="height:72px">
     <td>Generating audio files from samples transmitted over the serial</td>
     <td>
         <a href="https://github.com/PacktPublishing/TinyML-Cookbook_2E/blob/main/Chapter05_06/PythonScripts/03_parse_audio_samples.py">
@@ -67,10 +71,12 @@ Finally, we will test the model accuracy on the test dataset and deploy a music 
         </a>
     </td>
     <td>
+        <a>
         <img title="More in the book!" src="../Imgs/books_icon.svg" width="40">
+        </a>
     </td>
 </tr>
-<tr style="height:50px">
+<tr style="height:72px">
     <td>Building the dataset for classifying music genres </td>
     <td>
         <a href="https://github.com/PacktPublishing/TinyML-Cookbook_2E/blob/main/Chapter05_06/PythonScripts/04_build_dataset.py">
@@ -78,10 +84,12 @@ Finally, we will test the model accuracy on the test dataset and deploy a music 
         </a>
     </td>
     <td>
+        <a>
         <img title="More in the book!" src="../Imgs/books_icon.svg" width="40">
+        </a>
     </td>
 </tr>
-<tr style="height:50px">
+<tr style="height:72px">
     <td>Extracting MFCCs from audio samples with TensorFlow</td>
     <td>
         <a href="https://github.com/PacktPublishing/TinyML-Cookbook_2E/blob/main/Chapter05_06/ColabNotebooks/prepare_model.ipynb">
@@ -105,7 +113,7 @@ Finally, we will test the model accuracy on the test dataset and deploy a music 
     <th>Source code</th>
     <th>There's more</th>
 </tr>
-<tr style="height:50px">
+<tr style="height:72px">
     <td>Computing the FFT magnitude with fixed-point arithmetic using the CMSIS-DSP library</td>
     <td>
         <a href="https://github.com/PacktPublishing/TinyML-Cookbook_2E/blob/main/Chapter05_06/ColabNotebooks/prepare_model.ipynb">
@@ -113,10 +121,12 @@ Finally, we will test the model accuracy on the test dataset and deploy a music 
         </a>
     </td>
     <td>
+        <a>
         <img title="More in the book!" src="../Imgs/books_icon.svg" width="40">
+        </a>
     </td>
 </tr>
-<tr style="height:50px">
+<tr style="height:72px">
     <td>Implementing the MFCCs feature extraction with the CMSIS-DSP Python library</td>
     <td>
         <a href="https://github.com/PacktPublishing/TinyML-Cookbook_2E/blob/main/Chapter05_06/ColabNotebooks/prepare_model.ipynb">
@@ -129,7 +139,7 @@ Finally, we will test the model accuracy on the test dataset and deploy a music 
         </a>
     </td>
 </tr>
-<tr style="height:50px">
+<tr style="height:72px">
     <td>Designing and training an LSTM RNN model</td>
     <td>
         <a href="https://github.com/PacktPublishing/TinyML-Cookbook_2E/blob/main/Chapter05_06/ColabNotebooks/prepare_model.ipynb">
@@ -142,7 +152,7 @@ Finally, we will test the model accuracy on the test dataset and deploy a music 
         </a>
     </td>
 </tr>
-<tr style="height:50px">
+<tr style="height:72px">
     <td>Evaluating the accuracy of the quantized model on the test dataset</td>
     <td>
         <a href="https://github.com/PacktPublishing/TinyML-Cookbook_2E/blob/main/Chapter05_06/ColabNotebooks/prepare_model.ipynb">
@@ -150,10 +160,12 @@ Finally, we will test the model accuracy on the test dataset and deploy a music 
         </a>
     </td>
     <td>
+        <a>
         <img title="More in the book!" src="../Imgs/books_icon.svg" width="40">
+        </a>
     </td>
 </tr>
-<tr style="height:50px">
+<tr style="height:72px">
     <td>Deploying the MFCCs feature extraction algorithm on the Raspberry Pi Pico</td>
     <td>
         <a href="https://github.com/PacktPublishing/TinyML-Cookbook_2E/blob/main/Chapter05_06/ColabNotebooks/prepare_model.ipynb">
@@ -169,7 +181,7 @@ Finally, we will test the model accuracy on the test dataset and deploy a music 
         </a>
     </td>
 </tr>
-<tr style="height:50px">
+<tr style="height:72px">
     <td>Deploying the MFCCs feature extraction algorithm on the Raspberry Pi Pico</td>
     <td>
         <a href="https://github.com/PacktPublishing/TinyML-Cookbook_2E/blob/main/Chapter05_06/ArduinoSketches/11_music_genre_classification.ino">

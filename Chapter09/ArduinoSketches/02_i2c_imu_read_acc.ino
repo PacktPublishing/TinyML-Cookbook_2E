@@ -53,7 +53,7 @@ inline void read_accelerometer(float *ax, float *ay, float *az) {
 void setup() {
   i2c.frequency(400000);
 
-  Serial.begin(115600);
+  Serial.begin(115200);
   while (!Serial);
 
   char id;

@@ -19,7 +19,7 @@ void read_reg(int32_t addr_i2c, int32_t addr_reg, char *buf, int32_t length) {
 void setup() {
   i2c.frequency(400000);
 
-  Serial.begin(115600);
+  Serial.begin(115200);
   while (!Serial);
 
   char id;

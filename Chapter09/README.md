@@ -111,7 +111,7 @@ The development of this project will start by acquiring the accelerometer data t
     </td>
     <td>
         <a href="https://github.com/PacktPublishing/TinyML-Cookbook_2E/blob/main/Chapter09/ArduinoSketches/More/06_gesture_recognition_sparkfun_artemis_nano.ino">
-        <img title="Sketch for Raspberry Pi Pico" src="../Imgs/arduino_sketch_icon.png" width="40">
+        <img title="Sketch for SparkFun RedBoard Artemis Nano" src="../Imgs/arduino_sketch_icon.png" width="40">
         </a>
     </td>
 </tr>

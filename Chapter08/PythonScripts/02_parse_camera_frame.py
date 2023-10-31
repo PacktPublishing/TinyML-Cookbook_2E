@@ -7,7 +7,7 @@ def serial_readline(obj):
   return data.decode("utf-8").strip()
 
 port = '/dev/ttyACM0'
-baudrate = 115600
+baudrate = 115200
 
 # Initialize serial port
 ser = serial.Serial()

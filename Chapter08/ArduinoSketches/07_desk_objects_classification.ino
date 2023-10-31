@@ -126,7 +126,7 @@ void tflu_initialization() {
 }
 
 void setup() {
-  Serial.begin(115600);
+  Serial.begin(115200);
   while (!Serial);
 
   if (!Camera.begin(QQVGA, YUV422, 1)) {

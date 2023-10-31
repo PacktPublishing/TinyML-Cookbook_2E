@@ -20,7 +20,7 @@ inline void rgb565_rgb888(uint8_t* in, uint8_t* out) {
 }
 
 void setup() {
-  Serial.begin(115600);
+  Serial.begin(115200);
   while (!Serial);
 
   if (!Camera.begin(QVGA, RGB565, 1)) {

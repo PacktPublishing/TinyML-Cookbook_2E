@@ -11,7 +11,7 @@ int32_t bytes_per_frame;
 uint8_t data[320 * 240 * 2];
 
 void setup() {
-  Serial.begin(115600);
+  Serial.begin(115200);
   while (!Serial);
 
   Serial.println("OV767X Camera Capture");

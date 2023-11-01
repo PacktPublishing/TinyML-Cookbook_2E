@@ -21,7 +21,7 @@ In this chapter, we will build an image classification application with TensorFl
 
 | ML | Embedded programming |
 | --------| -------------------- |
-| Google Colaboratory | Arduino IDE (or Arduino Web Editor) |
+| Google Colaboratory | Local IDE |
 
 <h2> Source code </h2>
 

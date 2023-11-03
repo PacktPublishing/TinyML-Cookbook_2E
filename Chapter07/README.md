@@ -4,7 +4,7 @@
 <h2> About this chapter </h2>
 
 This chapter will showcase the successful deployment of an object detection application on microcontrollers using Edge Impulse and the <b>Faster Objects, More Objects</b> <b>(FOMO)</b> ML algorithm.
-Our objective will be to develop an application capable of detecting cans. The chapter will begin with dataset preparation, demonstrating how to acquire images with a webcam and label them in Edge Impulse. Next, we will design an ML model based using the FOMO algorithm. In this part, we will explore the architectural features of this novel ML solution that allows us to deploy object detection on highly constrained devices. Subsequently, we will test the model using the Edge Impulse Live classification tool and then on the Raspberry Pi Pico. The Raspberry Pi Pico will not be connected to any camera module because we transmit the images captured with the webcam to the microcontroller using the serial interface.
+Our objective will be to develop an application capable of detecting cans. The chapter will begin with dataset preparation, demonstrating how to acquire images with a webcam and label them in Edge Impulse. Next, we will design an ML model based on the FOMO algorithm. In this part, we will explore the architectural features of this novel ML solution that allows us to deploy object detection on highly constrained devices. Subsequently, we will test the model using the Edge Impulse Live classification tool and then on the Raspberry Pi Pico. The Raspberry Pi Pico will not be connected to any camera module because we transmit the images captured with the webcam to the microcontroller using the serial interface.
 
 <h2> Devices </h2>
 

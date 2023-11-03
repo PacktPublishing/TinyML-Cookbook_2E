@@ -128,6 +128,7 @@ In the first part, we will focus on dataset preparation and show how to acquire 
         </a>
         <a href="https://github.com/PacktPublishing/TinyML-Cookbook_2E/blob/main/Chapter03/ArduinoSketches/More/07_schematic_sparkfun_artemis_nano.png">
         <img title="Schematic for SparkFun RedBoard Artemis Nano" src="../Imgs/schematic_icon.png"  width="40">
+        </a>
     </td>
 </tr>
 <tr style="height:72px">

@@ -28,12 +28,12 @@
 static const char *label[] = {"disco", "jazz", "metal"};
 
 // TensorFlow Lite for Microcontroller global variables
-static const tflite::Model* tflu_model            = nullptr;
-static tflite::MicroInterpreter* tflu_interpreter = nullptr;
-static TfLiteTensor* tflu_i_tensor                = nullptr;
-static TfLiteTensor* tflu_o_tensor                = nullptr;
-static constexpr int t_sz                         = 16384;
-static uint8_t tensor_arena[t_sz] __attribute__((aligned(16)));
+const tflite::Model* tflu_model            = nullptr;
+tflite::MicroInterpreter* tflu_interpreter = nullptr;
+TfLiteTensor* tflu_i_tensor                = nullptr;
+TfLiteTensor* tflu_o_tensor                = nullptr;
+constexpr int t_sz                         = 16384;
+uint8_t tensor_arena[t_sz] __attribute__((aligned(16)));
 
 struct Buffer
 {
@@ -42,8 +42,8 @@ struct Buffer
   int16_t data[AUDIO_LENGTH_SAMPLES];
 };
 
-static mbed::Ticker    timer;
-static volatile Buffer buffer;
+mbed::Ticker    timer;
+volatile Buffer buffer;
 
 void tflu_initialization() {
 
@@ -134,7 +134,7 @@ private:
 
 MFCC_Q15 mfccs;
 
-static void print_raw_audio() {
+void print_raw_audio() {
   Serial.println(SAMPLE_RATE);
   Serial.println(AUDIO_LENGTH_SAMPLES);
   for(int i = 0; i < AUDIO_LENGTH_SAMPLES; ++i) {

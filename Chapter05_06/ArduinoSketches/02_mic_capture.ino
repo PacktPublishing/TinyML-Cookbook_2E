@@ -11,9 +11,9 @@
 #define AUDIO_LENGTH_SEC  4
 #define AUDIO_LENGTH_SAMPLES (SAMPLE_RATE * AUDIO_LENGTH_SEC)
 
-static mbed::Ticker     timer;
-static mbed::DigitalOut led_builtin(LED_BUILTIN);
-static mbed::DigitalIn  button(BUTTON);
+mbed::Ticker     timer;
+mbed::DigitalOut led_builtin(LED_BUILTIN);
+mbed::DigitalIn  button(BUTTON);
 
 struct Buffer
 {
@@ -22,15 +22,15 @@ struct Buffer
   int16_t data[AUDIO_LENGTH_SAMPLES];
 };
 
-static volatile Buffer buffer;
+volatile Buffer buffer;
 
-static void adc_setup() {
+void adc_setup() {
   adc_init();
   adc_gpio_init(26);
   adc_select_input(0);
 }
 
-static void print_raw_audio() {
+void print_raw_audio() {
   Serial.println(SAMPLE_RATE);
   Serial.println(AUDIO_LENGTH_SAMPLES);
   for(int i = 0; i < AUDIO_LENGTH_SAMPLES; ++i) {

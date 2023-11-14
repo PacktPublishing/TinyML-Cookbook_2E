@@ -1,4 +1,4 @@
-<h2>Chapter 10</h2>
+<h2>Chapter 11</h2>
 <h1><b>Running ML models on the Arduino and Arm Ethos-U55 microNPU using Apache TVM </b></h1>
 
 <h2> About this chapter </h2>

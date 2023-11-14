@@ -1,5 +1,5 @@
 <h2>Chapter 12</h2>
-<h1><b>Enabling Compelling tinyML Solutions with On-Device Learning and Scikit-Learn on the Arduino Nano and Raspberry Pi Pico  </b></h1>
+<h1><b>Enabling Compelling tinyML Solutions with On-Device Learning and Scikit-Learn on the Arduino Nano and Raspberry Pi Pico </b></h1>
 
 <h2> About this chapter </h2>
 

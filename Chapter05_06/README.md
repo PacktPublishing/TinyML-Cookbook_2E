@@ -1,5 +1,5 @@
 <h2>Chapter 5 and Chapter 6</h2>
-<h1><b>Recognizing Music Genres with TensorFlow and Raspberry Pi Pico</b></h1>
+<h1><b>Recognizing Music Genres with TensorFlow and the Raspberry Pi Pico</b></h1>
 
 <h2> About these chapters </h2>
 

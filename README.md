@@ -84,7 +84,7 @@ To cite TinyML Cookbook - Second Edition in publications use:
 }
 ```
 
-<h1> About the author </h1>
+## Get to know the Author
 
 <b>Gian Marco Iodice</b> is an experienced Edge and mobile computing specialist at Arm for machine learning (ML). He is also chair of the global meetups for the tinyML foundation since 2022.
 
@@ -97,3 +97,9 @@ Gian Marco's specialization lies in optimizing algorithms for resource-constrain
 In 2023, he collaborated with the University of Cambridge to integrate ML functionalities on an Arm Cortex-M microcontroller powered by algae. This ground-breaking work was showcased at the tinyML EMEA Innovation Forum in Amsterdam in June of the same year.
 
 In 2023, Gian Marco contributed to the development of the EdTech for Good Curation Framework. This framework, developed by UNICEF in collaboration with Arm and the Asian Development Bank (ADB), represents a significant step forward in the responsible use of technology in education. It enables public entities and international organizations to evaluate digital educational technologies, prioritizing learning outcomes and children's safety.
+
+
+## Other Related Books
+- [Machine Learning Engineering with Python - Second Edition](https://www.packtpub.com/product/machine-learning-engineering-with-python-second-edition/9781837631964)
+- [Interpretable Machine Learning with Python - Second Edition](https://www.packtpub.com/product/interpretable-machine-learning-with-python-second-edition/9781803235424)
+

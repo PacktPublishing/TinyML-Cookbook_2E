@@ -4,7 +4,9 @@
 
 This is the code repository for **[TinyML Cookbook, Second Edition](https://www.packtpub.com/product/tinyml-cookbook-second-edition/9781837637362)**, published by Packt.
 \
+\
 **Combine machine learning with microcontrollers to solve real-world problems**
+\
 \
 Author: **[Gian Marco Iodice](https://www.linkedin.com/in/gian-marco-iodice-3183a9a1/)**\
 Publisher: **[Packt](https://www.packtpub.com/)**

@@ -1,4 +1,4 @@
-<h1><b> TinyML Cookbook, Second Edition</b></h1>
+# Terraform Cookbook, Second Edition
 
 <a href="https://www.packtpub.com/product/tinyml-cookbook-second-edition/9781837637362"><img src="https://m.media-amazon.com/images/I/81DSW7odWRL._SL1500_.jpg" alt="TinyML Cookbook, Second Edition" height="256px" align="right"></a>
 
